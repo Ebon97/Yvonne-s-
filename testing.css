@@ -1,0 +1,474 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+}
+
+.navbar .navbar-brand
+{
+    color:goldenrod;
+}
+
+.collapse .navbar-nav
+{
+    color:goldenrod;
+}
+
+
+.size
+{
+    width:100%;
+}
+
+.bg
+{
+    background: url('image/salon.jpg') no-repeat;
+    padding-bottom: 211px;
+}
+
+
+
+.form-container
+{
+    border-radius: 50px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:40%;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+
+}
+
+
+.index-form
+{
+    padding-top:30px;
+}
+
+
+
+form
+{
+    padding-bottom: 5%;
+}
+
+/*Valid & Invalid */
+/*Staff*/
+#valFname
+{
+    margin-left: 130px;
+}
+
+#valLname
+{
+    margin-left: 130px;
+}
+
+#valEmail
+{
+    margin-left:166px;
+}
+
+#valHp
+{
+    margin-left:130px;
+}
+
+#valAge
+{
+    margin-left:80px;
+}
+
+#valBirth
+{
+    margin-left:76px;
+}
+
+#valJoin
+{
+    margin-left:7px;
+}
+
+#valSalary
+{
+    margin-left:80px;
+}
+
+/*Appointment*/
+#valCname
+{
+     margin-left: 100px;
+}
+
+#valPrice
+{
+    margin-left: 20px;
+}
+
+#valDate
+{
+    margin-left: 70px;
+}
+
+#valStime
+{
+     margin-left: 40px;
+}
+
+#valEtime
+{
+    margin-left: 14px;
+}
+
+#staff_first input
+{
+    width:280px;
+}
+
+#staff_first span
+{
+    width:10px;
+}
+
+
+#staff_second
+{
+    padding-top:1.5%;
+}
+
+#staff_second input
+{
+    width:282px;
+}
+
+#staff_third
+{
+    padding-top:1.5%;
+}
+
+#staff_third input
+{
+    width:186px;
+}
+
+#staff_fourth input
+{
+    width:186px;
+}
+
+#cust_first
+{
+    padding-bottom: 1.5%;
+}
+
+#cust_first input
+{
+    width:281px;
+}
+
+#cust_second input
+{
+    width:281px;
+}
+
+#cust_third
+{
+    padding-top:1.5%;
+}
+
+#cust_third input
+{
+    width:139px;
+}
+
+#appoint_first input
+{
+    width:478px;
+}
+
+#appoint_second
+{
+    padding-top:2%;
+}
+
+
+#appoint_second input
+{
+    width:318px;
+}
+
+#appoint_third input
+{
+    width:237px;
+}
+
+#appoint_fourth
+{
+    padding-bottom: 3.15%;
+}
+
+#appoint_fourth input
+{
+    width:237px;
+    
+}
+
+#invent_first select
+{
+    width:317px;
+}
+
+#invent_first input
+{
+    width:317px;
+}
+
+#invent_second input
+{
+    width:317px;
+}
+
+#invent_third input
+{
+     width:317px;
+}
+
+table
+{
+    margin-top:-1%;
+
+}
+
+.staffTable
+{
+    width:92%;
+    margin-left:3%;
+
+}
+
+#custTable
+{
+    width:92%;
+    margin-left:3%;
+}
+
+
+#addButton
+{
+    margin-top:-3%;
+    margin-left:86.5%;
+    padding:1% 3.2%;
+    border:none;
+    text-align: right;
+}
+
+.editbtn
+{
+    padding:15% 40%;
+    border:none;
+    background: blue;
+}
+
+.deletebtn
+{
+    margin-left:15%;
+    padding:10% 30%;
+    border:none;
+    background: red;
+}
+
+#closebtn
+{
+    color:white;
+}
+
+.button
+{
+    
+}
+
+.form-group.required .ast:before
+{
+    content:"*";
+    color:red;
+}
+
+#alertMessage
+{
+    color:red;
+    text-align: left;
+}
+
+h4
+{
+    text-align: center;
+    padding-top:1%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h3
+{
+    font-size: 200%;
+    text-align: center;
+    padding-top:1%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2
+{
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     font-weight: bold;
+     font-size:250%;
+     margin-left: 6%;
+}
+
+p
+{
+    text-align: center;
+    padding-bottom: 2%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h5
+{
+    font-weight: bold;
+}
+
+.footer h5
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+}
+
+
+/*Team*/
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+
+.team-section
+{
+    overflow: hidden;
+    text-align: center;
+    padding-top:10px;
+}
+
+.team-section h1
+{
+    text-transform: uppercase;
+    color:goldenrod;
+    font-size: 48px;
+}
+
+.border
+{
+    display:block;
+    margin:auto;
+    width:160px;
+    height:3px;
+    background: red;
+    margin-bottom:30px;
+}
+
+.ps
+{
+    margin-bottom:30px;
+}
+
+.ps a 
+{
+    display:inline-block;
+    margin:10px 10px;
+    width:190px;
+    height:190px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.ps a img
+{
+    width:100%;
+    filter:grayscale(100%);
+    transition:0.4s all;
+}
+
+.ps a:hover > img
+{
+    filter:none;
+}
+
+.section
+{
+    width:900px;
+    margin: auto;
+    font-size: 15px;
+    color:goldenrod;
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.section:target
+{
+    height:auto;
+    
+}
+
+.name
+{
+    display:block;
+    margin-bottom: 5px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
